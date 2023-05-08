@@ -7773,6 +7773,8 @@ if (typeof window.Matomo !== 'object') {
 (function () {
     'use strict';
 
+    conosle.error('pluginTrackerHook executed')
+
     function hasPaqConfiguration()
     {
         if ('object' !== typeof _paq) {
